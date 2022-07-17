@@ -1,0 +1,26 @@
+{
+  "name": "DineSafeTO in Google SERPs",
+  "description": "Toronto, Canada only. Looks up the establishment in Google's search engine results page and appends whether it passed its health inspection.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "icons": {
+    "16": "/images/dinesafe16.png",
+    "32": "/images/dinesafe32.png",
+    "48": "/images/dinesafe48.png",
+    "128": "/images/dinesafe128.png"
+  },
+  "action": {
+    "default_icon": {
+    "16": "/images/dinesafe16.png",
+    "32": "/images/dinesafe32.png",
+    "48": "/images/dinesafe48.png",
+    "128": "/images/dinesafe128.png"
+  },
+    "default_title": "DineSafeTO in Google SERPs"
+  },
+  "content_scripts": [{
+	  "matches": ["https://www.google.com/*"],
+	  "js": ["content.js"],
+	  "css": ["style.css"]
+  }]
+}

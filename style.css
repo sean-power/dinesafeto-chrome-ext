@@ -1,0 +1,21 @@
+.pass_state {
+    background-color: green;
+	color: #FFFFFF;
+	padding: 2px 5px 2px 5px;
+	font-weight: 600;
+	display: inline-flex;
+}
+.conditional_state {
+    border: 2px solid #000;
+    background-color: #202124;
+	padding: 1px;
+	font-weight: 600;
+	display: inline-flex;
+}
+.closed_state {
+	background-color:red;
+	color: #FFFFFF;
+	padding: 2px;
+	font-weight: 600;
+	display: inline-flex;
+}
