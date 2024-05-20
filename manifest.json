@@ -9,25 +9,31 @@
     "48": "/images/dinesafe48.png",
     "128": "/images/dinesafe128.png"
   },
-  "action": {
-    "default_icon": {
-    "16": "/images/dinesafe16.png",
-    "32": "/images/dinesafe32.png",
-    "48": "/images/dinesafe48.png",
-    "128": "/images/dinesafe128.png"
-  },
-    "default_title": "DineSafeTO in Google SERPs"
-  },
-  "content_scripts": [{
-	  "matches": ["https://www.google.com/*"],
-	  "js": ["content.js"],
-	  "css": ["style.css"]
-  }],
-  "permissions": [
-	"storage",
-	"unlimitedStorage"
-  ],
   "background": {
     "service_worker": "background.js"
-  }
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "declarativeContent",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://*.googleapis.com/*"
+  ], 
+  "action": {
+    "default_icon": {
+      "16": "/images/dinesafe16.png",
+      "32": "/images/dinesafe32.png",
+      "48": "/images/dinesafe48.png",
+      "128": "/images/dinesafe128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ]
 }
