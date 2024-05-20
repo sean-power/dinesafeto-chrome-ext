@@ -1,14 +1,3 @@
-// Send background.js a message requesting the DineSafeTO data
-chrome.runtime.sendMessage('get-data', (response) => {
-  // The background.js sends an asynchronous response with the data from the background. We want to save it in the cache when that happens.
-});
-
-// Gets the latest dineSafeTO data from Chrome Storage
-var data2 = chrome.storage.local.get('dineSafeTO', function() {
-	console.log('Retrieved DineSafeTO data from local storage');
-	console.log(data2)
-});
-
 // Modifies the local search page and inserts the DineSafeTO establishment_status
 const selectors = ["div.rllt__details", // https://www.google.com/search?q=mcdonalds+toronto&oq=mcdonalds+toronto&aqs=chrome.0.69i59.1221j0j9&sourceid=chrome&ie=UTF-8
     "#rhs > div > div", // https://www.google.com/search?q=pho+phuong&oq=&aqs=chrome.1.69i59i450l8.111464j0j7&sourceid=chrome&ie=UTF-8
