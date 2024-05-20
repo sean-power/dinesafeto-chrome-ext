@@ -1,6 +1,6 @@
 {
-  "name": "DEV - DineSafeTO in Google SERPs",
-  "description": "Toronto, Canada only. Looks up the establishment in Google's search engine results page and appends whether it passed its health inspection.",
+  "name": "DineSafeTO in Google SERPs",
+  "description": "Toronto, Canada only. Looks up establishments in Google's search engine results page and appends whether they have passed inspection.",
   "version": "1.0",
   "manifest_version": 3,
   "icons": {
