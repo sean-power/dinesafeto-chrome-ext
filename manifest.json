@@ -1,7 +1,7 @@
 {
   "name": "DineSafeTO in Google SERPs",
   "description": "Toronto, Canada only. Looks up establishments in Google's search engine results page and appends whether they passed inspection.",
-  "version": "1.0",
+  "version": "1.0.1",
   "manifest_version": 3,
   "icons": {
     "16": "/images/dinesafe16.png",
