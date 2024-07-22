@@ -7,6 +7,7 @@ DineSafeTO in Google SERPs is a Chrome extension that helps you find out whether
 <li><strong>Automatic lookup:</strong> No need to manually search for restaurants on the DineSafe website.</li>
 <li><strong>Clear indication:</strong> Inspection results are displayed prominently next to the restaurant name in the SERP.</li>
 <li><strong>Latest status for most establishments:</strong> As long the restaurant name and address in the SERP exact-match DineSafe's records, you will see the most recent status.</li>
+<li><strong>On the roadmap:</strong> Fuzzy search, more SERP page layouts, and greater geographic coverage.</li>
 </ul>
 
 <h3>Installation:</h3>
