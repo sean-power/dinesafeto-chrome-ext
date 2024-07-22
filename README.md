@@ -16,7 +16,7 @@ Get the extension from the Google Chrome Extension Web Store.
 
 <h3>Usage:</h3>
 
-Once installed, click the extension icon to enable it. You can click it again to disable it. When enabled, the extension will automatically work on most Google SERPs that includes restaurant listings. Look for the PASS, CONDITIONAL PASS, or CLOSED status uppended to the Google Place.
+Once installed, click the extension icon to enable it. You can click it again to disable it. When enabled, the extension will automatically work on most Google SERPs that includes restaurant listings. Look for the PASS, CONDITIONAL PASS, or CLOSED status appended to the Google Place.
 
 <h3>License:</h3>
 
